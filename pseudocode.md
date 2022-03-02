@@ -10,6 +10,4 @@
 
 User needs somewhere to input zip code and be able to hit "enter" or click a button to get the information
 
-Issues:
-- User could type something invalid
-- 
+Should check if input is valid before accepting any input
