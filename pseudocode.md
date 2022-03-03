@@ -2,12 +2,12 @@
 
 ![Wireframe](img/weather-app.png)
 
-# `Objects`
+# Input Section
 
-## Input Section
+## User puts zip code in and the weather information should pop up, when user goes to change the zip code the information should fade away.
 
-### Input field and button
+# Background
 
-User needs somewhere to input zip code and be able to hit "enter" or click a button to get the information
+## Make background change color based on the weather
 
-Should check if input is valid before accepting any input
+<!-- New Option -->
