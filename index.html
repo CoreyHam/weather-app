@@ -7,6 +7,12 @@
     <title>Weather App</title>
 </head>
 <body>
+    <input oninput="inputCheck()" minlength="5" maxlength="5" type="text" name="" id="inputBox" placeholder="Zip Code">
+    <div id="helperText">example: 90210</div>
+    <div id="cityDisplay"></div>
+    <div id="cityText"></div>
+    <div id="conditionDisplay"></div>
+    <div id="tempDisplay"></div>
     <script src="./node_modules/axios/dist/axios.min.js"></script>
     <script src="js/main.js"></script>
 </body>

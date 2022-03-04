@@ -2,12 +2,14 @@
 
 ![Wireframe](img/weather-app.png)
 
-# Input Section
+    START
 
-## User puts zip code in and the weather information should pop up, when user goes to change the zip code the information should fade away.
+## INPUT
 
-# Background
+## FETCH INFO
 
-## Make background change color based on the weather
+## SET STATE
 
-<!-- New Option -->
+## UPDATE VIEW
+
+    END
