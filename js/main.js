@@ -46,12 +46,14 @@ async function updateState() {
 }
 // UPDATE VIEW
 function updateView() {
-    console.log("updateView")
-    // Create Elements
-    cityDisplay = document.querySelector("#cityDisplay")
-    cityDisplay.innerText = "City"
-    cityText = document.querySelector("#cityText")
-    cityText.innerText = state.city
+    let count = 0;
+    for(i in state){
+        console.log(i)
+        let newDivs = document.createElement("div");
+         newDivs.id = `${i}Display`;
+         newDivs.innerHTML = i
+         document.getElementById("dataDisplay").appendChild(newDivs);
+    }
 }
 
 // END
