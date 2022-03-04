@@ -32,7 +32,7 @@ function applyData(resp) {
     //  Put it together with easy readibility 
     headerText.innerText = ""
     cityDisplay.innerText = city
-    tempDisplay.innerText = setTemp + "°"
+    tempDisplay.innerText = tempF + "°"
     conditionDisplay.innerHTML = condition + '<br><img src=" http://openweathermap.org/img/wn/'+icon+'@4x.png" alt=""></img>' 
     switch(icon){
         case '01d':
