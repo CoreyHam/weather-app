@@ -1,12 +1,8 @@
 //START
 let state = {
     zipCode: '',
-    city: 'temp',
-    temp: {
-        kelvin: '',
-        celsius: '',
-        fahrenheit: '',
-    },
+    city: '',
+    temp: '',
     condition: '',
     icon: ''
 }
@@ -46,12 +42,11 @@ async function updateState() {
 }
 // UPDATE VIEW
 function updateView() {
-    let count = 0;
     for(i in state){
         console.log(i)
         let newDivs = document.createElement("div");
          newDivs.id = `${i}Display`;
-         newDivs.innerHTML = i
+         newDivs.innerHTML = state[i]
          document.getElementById("dataDisplay").appendChild(newDivs);
     }
 }
