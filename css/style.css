@@ -18,6 +18,7 @@ body{
 
 input{
     border: none;
+    margin-bottom: 5vh;
     padding-left: 10px;
     background-color: rgba(255,255,255,.5);
     border-radius: 25px;
@@ -38,44 +39,27 @@ input{
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgb(126, 207, 232) 15%, rgb(85, 178, 240) 30%, rgb(25, 163, 226) 100%);
 }
 .fewClouds{
-    transition-timing-function: ease-in-out;
     background: linear-gradient(0deg, rgb(184, 184, 184) 0%, rgb(122, 184, 204) 15%, rgb(71, 143, 190) 30%, rgb(44, 135, 177) 100%);
 }
 .scatteredClouds{
-    transition-timing-function: ease-in-out;
     background: linear-gradient(0deg, rgb(133, 133, 133) 0%, rgb(114, 167, 184) 15%, rgb(69, 131, 172) 30%, rgb(45, 121, 156) 100%);
 }
 .brokenClouds{
-    transition-timing-function: ease-in-out;
     background: linear-gradient(0deg, rgb(133, 133, 133) 0%, rgb(74, 105, 116) 15%, rgb(41, 79, 104) 30%, rgb(21, 63, 82) 100%);
 }
 .showerRain{
-    transition-timing-function: ease-in-out;
     background: linear-gradient(0deg, rgb(133, 133, 133) 0%, rgb(74, 105, 116) 15%, rgb(41, 79, 104) 30%, rgb(21, 63, 82) 100%);
 }
 .rain{
-    transition-timing-function: ease-in-out;
     background: linear-gradient(0deg, rgb(133, 133, 133) 0%, rgb(74, 105, 116) 15%, rgb(41, 79, 104) 30%, rgb(21, 63, 82) 100%);
 }
 .thunderstorm{
-    transition-timing-function: ease-in-out;
     background: linear-gradient(0deg, rgb(133, 133, 133) 0%, rgb(74, 105, 116) 15%, rgb(41, 79, 104) 30%, rgb(21, 63, 82) 100%);
 }
 .snow{
-    transition-timing-function: ease-in-out;
     background: linear-gradient(0deg, rgb(184, 184, 184) 0%, rgb(122, 201, 204) 15%, rgb(71, 182, 190) 30%, rgb(44, 168, 177) 100%);
 }
 .mist{
     background: linear-gradient(0deg, rgba(88,99,99,1) 0%, rgba(142,167,172,1) 15%, rgba(93,114,120,1) 62%, rgba(64,55,55,1) 100%);
 }
 
-
-
-@keyframes fadeInAnimation {
-    0% {
-        background: cross-fade();
-    }
-    100% {
-        background: linear-gradient(inherit);
-     }
-}

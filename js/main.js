@@ -32,7 +32,7 @@ function applyData(resp) {
     //  Put it together with easy readibility 
     headerText.innerText = ""
     cityDisplay.innerText = city
-    tempDisplay.innerText = tempF + "°"
+    tempDisplay.innerText = Math.round(tempK) + "°K " + tempF + "°F " + tempC + "°C"
     conditionDisplay.innerHTML = condition + '<br><img src=" http://openweathermap.org/img/wn/'+icon+'@4x.png" alt=""></img>' 
     switch(icon){
         case '01d':
@@ -84,20 +84,20 @@ function inputCheck() {
         helperText.innerText = "Please Enter a Number"
 }
 
-function tempChange(type){
-    console.log("Temp Change")
-    switch(type){
-        case 'k':
-            setTemp = tempK
-            break;
-        case 'f':
-            setTemp = tempF
-            break;
-        case 'c':
-            setTemp = tempC
-            break;
-    }
-}
+// function tempChange(type){
+//     console.log("Temp Change")
+//     switch(type){
+//         case 'k':
+//             setTemp = tempK
+//             break;
+//         case 'f':
+//             setTemp = tempF
+//             break;
+//         case 'c':
+//             setTemp = tempC
+//             break;
+//     }
+// }
 
 function showItems(){
     if (city.innerText != undefined){
